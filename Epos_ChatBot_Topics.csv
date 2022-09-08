@@ -1,0 +1,86 @@
+How to access Paradigm Online University,"Follow the following document on how to access Paradigm Online University (POU):
+
+\\rbivwinpdfs01.rokan.local\Share\CIFS\PHR\rumbai\data\documentation\EPOS\NEW_TRN\02_MODULE - 2.1 GUIDELINE TO PARADIGM ONLINE UNIVERSITY.pptx"
+"I am getting error ""Fatal Error: Cannot create CSS Manager"" when I launch Epos","Please close all Epos application and DON'T save your session.
+Then relaunch session manager by command mulai_epos asset_team"
+"I am getting error ""PNS host inconsistently resolves"" when I launch Epos",Please contact IT Linux support to update the IP Address at /etc/hosts file on your linux machine
+"I am getting error ""Failed to initialize embedded Coordinate Service"" when I launch Epos",Please contact IT Linux support to update the domain name at /etc/hosts file on your linux machine
+"I am getting error ""License Number of users already reached""",Please as the IT Epos Support to release and refresh Epos license
+Paradigm Online University Username,PHR email
+"I am geeting Error ""Please verify the write permission and available disk space at directory""",Please contact IT Linux support to get directory permission
+"I am getting error "" SQLite: database or disk is full41' while running StratEarth or SKUA","/Var folder on your workstation is full, Please contact IT Linux support to delete files under /var folder"
+"I can't save my Epos Session with error "" Lock: Type: read User: mk.alfian.gumelar Created: 2022/03/14",Delete Locked File under File > Project > Manage Locked > Select lock file then delete
+"I am geeting Error ""no markers found for mistie calculation"" while calibrating grid to markers in Basemap",Assign Marker to Horizon in Well Data Manager before calibrate grid to Well Markers
+"I am geeting Error "" Severe Error from: Corba Data Server storeWellList error. access denied"" while Importing Directional Survey and Create Well List","no permission to create a new well in proposed well database. Ask the Epos IT to Add Permission to Access, Create/Modify well database"
+How to Create Well Circle Drainage Radius in Basemap,Follow the following document on how to Create Well Circle Drainage Radius in Basemap https://collab1.rokan.local/sites/NG/WU/_layouts/15/WopiFrame.aspx?sourcedoc={e5430c8b-69e6-416d-9beb-e6586a12697e}&action=edit&source=https%3A%2F%2Fcollab1%2Erokan%2Elocal%2Fsites%2FNG%2FWU%2FTips%2520and%2520Tricks%2FForms%2FAllItems%2Easpx%3FRootFolder%3D%252Fsites%252FNG%252FWU%252FTips%2520and%2520Tricks%252FFAQ%25202022%26FolderCTID%3D0x01200082EF59A6A9E948478850E86359569857%26View%3D%257BCD869C46%252D929E%252D41A0%252D9991%252D36DD7232FD2A%257D%26InitialTabId%3DRibbon%252ERead%26VisibilityContext%3DWSSTabPersistence
+How to delete well section,In Menu Edit ->Turn On Objecs Icon in Display Element-> Select Well Section-> Delete -> Filter on Well Section (https://ptptmn.sharepoint.com/:v:/r/sites/EposRokanOnsites/Shared%20Documents/Video_Tips/How_to_Delete_Well_Section.mp4?csf=1&web=1&e=LaKXp4)
+How to remove lock file,In Menu File -> Project ->  Manage Locks -> Select the lock -> Delete lock
+Markers were not correlated,Marker needs assigned as a feature (need to do in WDM first before run StratEarth)
+How to add perforation tracks,Select Well in Display Elements-> RMB -> Add Track -> Zone and toggle on Perforation track in the well
+How to apply template on cross-section,In Display Elements-> Select Well -> RMB -> Style ->  Apply template -> Select Template -> Select Objects (well) -> Apply
+How to copy template ,In Display Elements-> Turn on Well Track Templates Tab -> Select the template-> RMB -> Copy
+How to delete template,In Display Elements-> Select the template > RMB -> Delete
+How to modify marker color,In Display Elements-> Select the well -> RMB -> Edit -> Double Click on Color Table.
+How to rename marker name ,In Display Elements-> Select the well -> marker -> RMB -> Rename over related markername
+How to save template,In Display Elements-> Select the template-> RMB -> Save to Epos Preference over well
+How to save template to Epos Preferences,In Display Elements-> Select the template -> RMB -> Save To Epos Preferences
+How to apply style in well header,In Display Elements-> Select Well > RMB -> Style> Style Editor ->  Header -> Select header/imported header
+How to display original markerset,In Display Elements-> Select Well > RMB -> Style> Style Editor -> Toggle off show original marker set
+How to calculate NTG,"Use Compute -> thickness between 2 markers. Need to specify facies, which should be calculated prior this step"
+How to delete marker?,In Display Elements-> Select Well Marker  > RMB on marker name> delete
+How to import Template,In Menu File -> Import -> Gocad Resources -> Template
+How to rename marker?,In Display Elements-> Select Well Marker ->RMB on marker > rename
+How to save marker?,In Display Elements-> RMB on marker > save markers set > select well and stratigraphy context
+I can't send traverse from basemap to StratEarth,"Lost connection PNS with error""Fatal Error: Cannot create CSS Manager"". Exit from Session MAnager then relauch Session Manager then reopen session"
+How to create constant grid,"Depend on objective, related objective will use Grid, Recommend to use Mathematical Operation for contants grid ( File = Z; )"
+How to open Fault outlines,In Menu File -> Open Interpretation > Select the correct Data type -> Fault Outline
+How to open interpretation data,In Menu File -> Open Interpretation -> Select the correct Data type -> Grid/Pick -> Select the name and click OK
+How to open traverse,In Menu File -> Open Traverse -> Select the traverse name -> Ok
+How to extract markers from grid,In Menu Interpretation -> Extract Markers from Grid -> Select grid -> Select Well list -> Select/Create Tops Name-> Set Name  Class -> Ok
+How to calibrate grid to wells,In Menu Mapping -> Calibrate Grid to wells -> select Well Marker Two way time (info) > Show Statistic
+How to create control points,In Menu Mapping -> Create Control points
+How to create grid from control points,In Menu Mapping -> Create Grid ->  Select Source Control point
+How to create fault outlines,Can create using manually draw or automatically using 3DC or as result of SKUA model.
+How to create contour,in Grid object -> RMB - > Create contour. Show how to modify paramters.
+How to create contour from t-surface,in T-surface object -> RMB -> Create Contour. Over related object
+How to modify culture display properties,in Culture object -> RMB -> Culture properties
+How to display markers on Basemap,in Well object -> RMB -> Properties -> markers over well
+How to modify culture color,In Culture -> RMB -> Properties-> Change Definition from Database to User defined to modify the color
+How to fill contour,Create new contour with toggle on fill contours while option to create fill contours with color
+How to create traverse,Use Menu toolbar -> General Line selection
+How to calculate Volumetric,"Open and Select Grid and Polygon Name, Click on planimeter icon at right toolbar then select polygon using mouse-> MB3-> Volumetrics -> set Based as constant value -> Apply"
+How to create contour?,Select Grid -> RMB on grid > select contour icon or Grid -> Create Contour ->  Set the parameter range and interval -> Apply
+How to create proposed well?,"In Menu Edit > Create new Well -> Select well location using by moving mouse -> Click -> Click Continue -> WELL_NAME , WELL, Drilled Depth -> Next -> Done"
+How to create well list from selected wells?,Select capture icon on the right toolbar > select wells > RMB on selected well > create well list
+How to measure distance between wells,Using ruler at right toolbar in basemap then draw line to measure
+How to open Fault Outline?,In Menu File > open interpretation > select fault outline
+How to set projection distance,Under Customize Menu -> Preferences -> Wells -> Projection Distance
+How to display Marker?,Properties > select markers
+Maintenance mode on,Please ask Epos admin to swtich off maintenance mode
+How to open another user session,In Paradigm Session Manager > File > Load Session -> Select Other user session
+How to open session,In Paradigm Session Manager > File -> Load Session
+How to save session,In Paradigm Session Manager > File > Save Session
+can't open sesion manager,interemittent issue connect to pns server
+Session lock,PNS issue - System Issue
+Slow performance on Linux,"Possible cause : HP Velocity, turning off this feature can solve this issue"
+Failed to start Epos,"Check  the script, error log and remote storage issue"
+Can't launch paradigm session manager,In Linux Terminal -> type command /util/scripts/app-run/mulai_epos regi
+"Getting Error ""Fatal Error: Cannot create CSS Manager""",Exit Session Manager without save sessing then relaunch Session Manager
+How to open project?,Paradigm Session Manager - Menu > File > open project
+How to save session?,Paradigm Session Manager - Menu > File -> Save Session As.
+How to start Epos ,"Show Documentation on how to start Epos, ( mulai_epos did not work. Use complete path, as probably related datapath not added yet into PATH variable)"
+How to create cross-section,Command -> Cross-section -> New -> Create from polyline
+How to see histogram inside related polygon,"Create Region based on closed polygon. And display histogram, based on this Region"
+How to export gocad object,In Menu File -> Export -> GOCAD ASCII
+How to open wells from SKUA,In Menu File -> Open wells -> Select related well list
+How to save SKUA model to epos,In Menu File -> Save SKUA model.
+How to create region based on closed polygon,In Object -> Region -> Create Inside Closed Polygon. Apply to related pointset.
+How to create well plan in SKUA,Show how to use SKUA-CVX well planning
+How to avoid crossing surface between top and bottom,"Trasnfer Z of top surface to bottom, use , script if (Z<Ztop) { Z = Ztop-3;}. Number 3 is constant thickness for crossed section"
+How to extract Map Properties at Well Location,Using Macro from SKUA Application
+How to activate global velocity model,From WDM -> Customize -> Well Domain Conversion … -> Use GVM.  For all wells.
+How to copy checkshot from one well to other,"in WDM -> Select well -> Select Checkshot -> Save as to -> select other well -> set name -> apply   (If to many lines, recommend to import it using ASCII Import/export )"
+How to set marker priority,Select wells. RMB -> Create well list based on selected wells
+How to update directional (and position )  survey ,"Tested localy, proporse to promote on Pilot dataset"
+How to create well list,"Well Data Manager > Domain Conversion > Checshot tab, select Well that have checkshot you want to copy then use right mouse button to select ""Save As"" select your target well"
+Working on Marker FPRO_CH priority,In Well Data Manager > Markers Tab > Markers Activity -> Marker Priority. Toggle on Apply Priority and  set Priority Marker
